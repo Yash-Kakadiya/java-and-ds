@@ -15,6 +15,8 @@ public class Q41 {
         System.out.print("Enter the number of columns of second matrix: ");
         c2 = sc.nextInt();
 
+        sc.close();
+
         if (c1 != r2) {
             System.out.println("Matrix multiplication is not possible.");
             return;
